@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: antiquewhite;
+            color: black;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: bisque;
+            padding: 5px 10px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="password"],
+        form button {
+            display: block;
+            width: 30%;
+            margin-bottom: 15px;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: burlywood;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Website</h1>
+        <h2>Please Register yourself before proceeding...</h2>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Login</a>
+        <a href="#">Registration</a>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>About Website</h2>
+            <p>This website provides information and services to users.</p>
+        </section>
+        <section>
+            <h2>Registration</h2>
+            <p>Sign up to access exclusive features and content.</p>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <section>
+            <h2>Search</h2>
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </section>
+    </main>
+    
+    <footer>
+        &copy; 2024 my Website. All rights reserved.
+    </footer>
+</body>
+</html>
